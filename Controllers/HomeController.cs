@@ -20,7 +20,8 @@ namespace FirstWebApp.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var persons = new DapperPerson().GetPerson();
+            return View(persons);
         }
     }
 }

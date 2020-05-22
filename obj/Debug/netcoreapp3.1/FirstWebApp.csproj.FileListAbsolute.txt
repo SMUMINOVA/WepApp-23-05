@@ -36,3 +36,9 @@ C:\Users\dell\Desktop\AlifAcademy26.03.2020-master\FirstWebApp\obj\Debug\netcore
 C:\Users\dell\Desktop\AlifAcademy26.03.2020-master\FirstWebApp\obj\Debug\netcoreapp3.1\FirstWebApp.dll
 C:\Users\dell\Desktop\AlifAcademy26.03.2020-master\FirstWebApp\obj\Debug\netcoreapp3.1\FirstWebApp.pdb
 C:\Users\dell\Desktop\AlifAcademy26.03.2020-master\FirstWebApp\obj\Debug\netcoreapp3.1\FirstWebApp.genruntimeconfig.cache
+C:\Users\dell\Desktop\AlifAcademy26.03.2020-master\FirstWebApp\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\dell\Desktop\AlifAcademy26.03.2020-master\FirstWebApp\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\dell\Desktop\AlifAcademy26.03.2020-master\FirstWebApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\dell\Desktop\AlifAcademy26.03.2020-master\FirstWebApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\dell\Desktop\AlifAcademy26.03.2020-master\FirstWebApp\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\dell\Desktop\AlifAcademy26.03.2020-master\FirstWebApp\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
