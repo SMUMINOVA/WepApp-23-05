@@ -33,5 +33,14 @@ namespace FirstWebApp.Controllers
             new DapperPerson().InsertPerson(p);
             return RedirectToAction("Index");
         }
+        public IActionResult LookingForPerson(){
+            return View();
+        }
+        public IActionResult SelectById(int Id){
+            return View(new DapperPerson().GetPersonById(Id));
+        }
+        public IActionResult SelectByFIO(Person p){
+            return View(new DapperPerson().GetPersonByFIO(p));
+        }
     }
 }

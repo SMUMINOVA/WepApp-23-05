@@ -23,10 +23,10 @@ namespace FirstWebApp.Models
                 return persons;
             }           
         }
-        public List<Person> GetPersonByFIO(string firstName, string lastName, string middleName){
+        public List<Person> GetPersonByFIO(Person p){
             using(SqlConnection conn = new SqlConnection(conString)){
                 conn.Open();
-                var persons = conn.Query<Person>($"Select * from Person where FirstName = '{firstName}', LastName = '{lastName}', MiddleName = '{middleName}'").ToList();
+                var persons = conn.Query<Person>($"Select * from Person where FirstName = '{p.FirstName}', LastName = '{p.LastName}', MiddleName = '{p.MiddleName}'").ToList();
                 conn.Close();
                 return persons;
             }           
