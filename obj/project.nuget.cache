@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s8dA2CkHHWBHmeYm0rOsw8GCjeuup0QcYMQzkhBahY2WMPYGX/MKvkakwy7+0iGORQPkoYvjqSB3aW2BVsR9CA==",
+  "dgSpecHash": "TKMZ/4y/1dsAgihecvqKRbRe6vInxhBbIagHvPf6/G1LvMuURAtpX+V7VuaH0MTebHmu5ZdE6ppeUsKrbJrgOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dell\\Desktop\\AlifAcademy26.03.2020-master\\FirstWebApp\\FirstWebApp.csproj",
+  "projectFilePath": "C:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\FirstWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

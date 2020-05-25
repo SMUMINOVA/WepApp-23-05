@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dell\\Desktop\\AlifAcademy26.03.2020-master\\FirstWebApp\\FirstWebApp.csproj": {}
+    "C:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\FirstWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dell\\Desktop\\AlifAcademy26.03.2020-master\\FirstWebApp\\FirstWebApp.csproj": {
+    "C:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\FirstWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\Desktop\\AlifAcademy26.03.2020-master\\FirstWebApp\\FirstWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\FirstWebApp.csproj",
         "projectName": "FirstWebApp",
-        "projectPath": "C:\\Users\\dell\\Desktop\\AlifAcademy26.03.2020-master\\FirstWebApp\\FirstWebApp.csproj",
+        "projectPath": "C:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\FirstWebApp.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dell\\Desktop\\AlifAcademy26.03.2020-master\\FirstWebApp\\obj\\",
+        "outputPath": "C:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

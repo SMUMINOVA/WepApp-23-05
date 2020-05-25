@@ -23,9 +23,13 @@ namespace FirstWebApp.Controllers
             var persons = new DapperPerson().GetPersons();
             return View(persons);
         }
+        [HttpGet]
+        public IActionResult AddPerson(){
+            return View();
+        }
         [HttpPost]
-        public IActionResult AddPerson(string firstName, string middleName, string lastName){
-            var p = new Person{FirstName = firstName, MiddleName = middleName, LastName = lastName};
+        public IActionResult AddPerson(Person p){
+            //var p = new Person{FirstName = firstName, MiddleName = middleName, LastName = lastName};
             new DapperPerson().InsertPerson(p);
             return RedirectToAction("Index");
         }
