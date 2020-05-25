@@ -20551,6 +20551,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\Views\\Home\\SelectById.cshtml",
+      "TargetPath": "Views\\Home\\SelectById.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

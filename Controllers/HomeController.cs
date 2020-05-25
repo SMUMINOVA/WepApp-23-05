@@ -41,8 +41,8 @@ namespace FirstWebApp.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult SelectById(int Id){
-            var SelectedPerson = new DapperPerson().GetPersonByFIO(p);
+        public IActionResult SelectById(Person p){
+            var SelectedPerson = new DapperPerson().GetPersonById(p.Id);
             return RedirectToAction("ViewPerson", new Person {Id = SelectedPerson[0].Id, FirstName = SelectedPerson[0].FirstName, MiddleName = SelectedPerson[0].MiddleName, LastName = SelectedPerson[0].LastName});
         }
         [HttpGet]

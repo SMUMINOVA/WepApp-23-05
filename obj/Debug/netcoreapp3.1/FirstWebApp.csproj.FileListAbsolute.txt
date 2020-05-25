@@ -89,3 +89,4 @@ C:\Users\dell\Desktop\AlifAcademy\FirstWebApp\obj\Debug\netcoreapp3.1\Razor\View
 C:\Users\dell\Desktop\AlifAcademy\FirstWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\LookingForPerson.cshtml.g.cs
 C:\Users\dell\Desktop\AlifAcademy\FirstWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\ViewPerson.cshtml.g.cs
 C:\Users\dell\Desktop\AlifAcademy\FirstWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\SelectByFIO.cshtml.g.cs
+C:\Users\dell\Desktop\AlifAcademy\FirstWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\SelectById.cshtml.g.cs
