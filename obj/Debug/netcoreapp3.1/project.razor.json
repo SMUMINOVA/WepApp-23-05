@@ -20521,8 +20521,18 @@
   "RootNamespace": "FirstWebApp",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\Views\\Home\\SelectByFIO.cshtml",
+      "TargetPath": "Views\\Home\\SelectByFIO.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\Views\\Home\\LookingForPerson.cshtml",
+      "TargetPath": "Views\\Home\\LookingForPerson.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20548,6 +20558,11 @@
     {
       "FilePath": "c:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dell\\Desktop\\AlifAcademy\\FirstWebApp\\Views\\Home\\ViewPerson.cshtml",
+      "TargetPath": "Views\\Home\\ViewPerson.cshtml",
       "FileKind": "mvc"
     },
     {

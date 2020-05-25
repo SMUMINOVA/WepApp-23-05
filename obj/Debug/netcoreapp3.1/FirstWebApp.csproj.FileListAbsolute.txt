@@ -86,3 +86,6 @@ C:\Users\dell\Desktop\AlifAcademy\FirstWebApp\obj\Debug\netcoreapp3.1\FirstWebAp
 C:\Users\dell\Desktop\AlifAcademy\FirstWebApp\obj\Debug\netcoreapp3.1\FirstWebApp.pdb
 C:\Users\dell\Desktop\AlifAcademy\FirstWebApp\obj\Debug\netcoreapp3.1\FirstWebApp.genruntimeconfig.cache
 C:\Users\dell\Desktop\AlifAcademy\FirstWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddPerson.cshtml.g.cs
+C:\Users\dell\Desktop\AlifAcademy\FirstWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\LookingForPerson.cshtml.g.cs
+C:\Users\dell\Desktop\AlifAcademy\FirstWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\ViewPerson.cshtml.g.cs
+C:\Users\dell\Desktop\AlifAcademy\FirstWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\SelectByFIO.cshtml.g.cs

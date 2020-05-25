@@ -1,0 +1,37 @@
+@model Person
+
+@{
+    ViewData["Title"] = "Searching for Person";
+}
+<form method = "post" action="">
+
+<div class = "row">
+<div class = "col-md-10">
+    <label for="FirstName">First Name</label>
+</div>
+<div class = "col-md-10">
+    <input asp-for="FirstName" type="text" >
+</div>
+</div>
+<div class = "row">
+<div class = "col-md-10">
+    <label for="MiddleName">Middle Name</label>
+</div>
+<div class = "col-md-10">
+    <input asp-for="MiddleName" type="text" >
+</div>
+</div>
+<div class = "row">
+<div class = "col-md-10">
+    <label for="LastName">Last Name</label>
+</div>
+<div class = "col-md-10">
+    <input asp-for="LastName" type="text" >
+</div>
+</div><br>
+<div class = "row">
+<div class = "col-md-10">
+    <input type="submit" class=" btn btn-primary" value="Search">
+</div>
+</div>
+</form>

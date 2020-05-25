@@ -20,8 +20,8 @@ namespace FirstWebApp.Controllers
 
         public IActionResult Index()
         {
-            var persons = new DapperPerson().GetPersons();
-            return View(persons);
+            var p = new DapperPerson().GetPersons();
+            return View(p);
         }
         [HttpGet]
         public IActionResult AddPerson(){
@@ -29,18 +29,33 @@ namespace FirstWebApp.Controllers
         }
         [HttpPost]
         public IActionResult AddPerson(Person p){
-            //var p = new Person{FirstName = firstName, MiddleName = middleName, LastName = lastName};
             new DapperPerson().InsertPerson(p);
             return RedirectToAction("Index");
         }
+        [HttpGet]
         public IActionResult LookingForPerson(){
             return View();
         }
-        public IActionResult SelectById(int Id){
-            return View(new DapperPerson().GetPersonById(Id));
+        [HttpGet]
+        public IActionResult SelectById(){
+            return View();
         }
+        [HttpPost]
+        public IActionResult SelectById(int Id){
+            var SelectedPerson = new DapperPerson().GetPersonByFIO(p);
+            return RedirectToAction("ViewPerson", new Person {Id = SelectedPerson[0].Id, FirstName = SelectedPerson[0].FirstName, MiddleName = SelectedPerson[0].MiddleName, LastName = SelectedPerson[0].LastName});
+        }
+        [HttpGet]
+        public IActionResult SelectByFIO(){
+            return View();
+        }
+        [HttpPost]
         public IActionResult SelectByFIO(Person p){
-            return View(new DapperPerson().GetPersonByFIO(p));
+            var SelectedPerson = new DapperPerson().GetPersonByFIO(p);
+            return RedirectToAction("ViewPerson", new Person {Id = SelectedPerson[0].Id, FirstName = SelectedPerson[0].FirstName, MiddleName = SelectedPerson[0].MiddleName, LastName = SelectedPerson[0].LastName});
+        }
+        public IActionResult ViewPerson(Person p){
+            return View(p);
         }
     }
 }

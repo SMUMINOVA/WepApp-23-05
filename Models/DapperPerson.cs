@@ -26,7 +26,7 @@ namespace FirstWebApp.Models
         public List<Person> GetPersonByFIO(Person p){
             using(SqlConnection conn = new SqlConnection(conString)){
                 conn.Open();
-                var persons = conn.Query<Person>($"Select * from Person where FirstName = '{p.FirstName}', LastName = '{p.LastName}', MiddleName = '{p.MiddleName}'").ToList();
+                var persons = conn.Query<Person>($"Select * from Person where FirstName = '{p.FirstName}' AND LastName = '{p.LastName}' AND MiddleName = '{p.MiddleName}'").ToList();
                 conn.Close();
                 return persons;
             }           
