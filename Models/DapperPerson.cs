@@ -31,5 +31,12 @@ namespace FirstWebApp.Models
                 return persons;
             }           
         }
+        public void InsertPerson(Person p){
+            using(SqlConnection conn = new SqlConnection(conString)){
+                conn.Open();
+                conn.Execute($"INSET INTO Person(FirstName, LastName, MiddleName) VALUES('{p.FirstName}', '{p.LastName}', '{p.MiddleName}')");
+                conn.Close();
+            }
+        }
     }
 }
